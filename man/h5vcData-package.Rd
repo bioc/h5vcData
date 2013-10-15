@@ -41,11 +41,11 @@ Maintainer: Paul Theodor Pyl <pyl@embl.de>
 }
 \keyword{ package }
 \seealso{
-\code{h5vc}
+\code{\link[h5vc]{h5vc}}
 }
 \examples{
-tallyFile = system.file("extdata/example.tally.hfs5", package = "h5vcData")
-caseBamFile = system.file("extdata/NRAS.AML.bam", package = "h5vcData")
-controlBamFile = system.file("extdata/NRAS.Control.bam", package = "h5vcData")
+tallyFile <- system.file("extdata", "example.tally.hfs5", package = "h5vcData")
+caseBamFile <- system.file("extdata", "NRAS.AML.bam", package = "h5vcData")
+controlBamFile <- system.file("extdata", "NRAS.Control.bam", package = "h5vcData")
 data( "example.variants", package = "h5vcData" )
 }
