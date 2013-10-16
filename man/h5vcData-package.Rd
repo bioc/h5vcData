@@ -13,8 +13,8 @@ This package contains the example data needed for the vignettes and examples of 
 \tabular{ll}{
 Package: \tab h5vcData\cr
 Type: \tab Package\cr
-Version: \tab 0.99.0\cr
-Date: \tab 2013-10-10\cr
+Version: \tab 1.0.0\cr
+Date: \tab 2013-10-16\cr
 License: \tab GPL (>= 3)\cr
 }
 
@@ -48,4 +48,5 @@ tallyFile <- system.file("extdata", "example.tally.hfs5", package = "h5vcData")
 caseBamFile <- system.file("extdata", "NRAS.AML.bam", package = "h5vcData")
 controlBamFile <- system.file("extdata", "NRAS.Control.bam", package = "h5vcData")
 data( "example.variants", package = "h5vcData" )
+head(variantCalls)
 }
