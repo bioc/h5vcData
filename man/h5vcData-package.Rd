@@ -30,6 +30,9 @@ This package contains the following files in \code{inst/extdata}:
 
 \code{NRAS.Control.bam.bai}: BAM file index for \code{NRAS.Control.bam}
 
+\code{Pt*bam}: BAM file containing reads spannign DNMT3A locus of cancer or control samples from a total of 6 pairs
+\code{Pt*bam.bam}: Corresponding index files for the set of bam files overlapping the DNMT3A locus
+
 This package contains the following data objects in \code{data}:
 
 \code{variantCalls} is the \code{data.frame} containing a set of example variant calls on the example tally file
