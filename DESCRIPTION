@@ -1,11 +1,11 @@
 Package: h5vcData
 Type: Package
 Title: Example data for the h5vc package
-Version: 1.101.0
+Version: 1.101.1
 Date: 2013-10-16
 Author: Paul Theodor Pyl
 Maintainer: Paul Theodor Pyl <pyl@embl.de>
 Description: This package contains the data used in the vignettes and examples of the 'h5vc' package
 License: GPL (>= 3)
 Suggests: h5vc
-biocViews: HighThroughputSequencingData
+biocViews: CancerData
