@@ -1,7 +1,7 @@
 Package: h5vcData
 Type: Package
 Title: Example data for the h5vc package
-Version: 1.104.0
+Version: 1.105.0
 Date: 2013-10-16
 Author: Paul Theodor Pyl
 Maintainer: Paul Theodor Pyl <pyl@embl.de>
